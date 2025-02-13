@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <div id="title">Etch-A-Sketch</div>
+        <div id="content">
+            <div class = "head">
+                <div>
+                    <button id="black" class="toggle-button color"></button>
+                    <span>Black</span>
+                </div> 
+                <div>
+                    <button id="grey" class="toggle-button color"></button></span><span>Grey</span>
+                </div> 
+                <div>
+                    <button id="teal" class="toggle-button color"></button></span><span>Teal</span>
+                </div>                            
+                            
+            </div>
+            <div id="container"></div>
+            <div class="head bottom">
+                <div>
+                    <button id="toggleBtn" class="toggle-button reset"></button></span><span>Reset</span>
+                </div> 
+                <div>
+                    <button id="toggleBtn" class="toggle-button erase"></button></span><span>Erase</span>
+                </div>                
+            </div>
+            <div id = "size">
+                <input type="text" id="myInput" placeholder="2-100" autocomplete="off">
+                <label for="myButton">Resize</label>
+            </div>
+        </div>
+    </div>    
+
+
+    <script src="script.js"></script>    
+</body>
+</html>
